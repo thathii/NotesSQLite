@@ -12,7 +12,7 @@ class home : AppCompatActivity() {
 
         val button = findViewById<Button>(R.id.homebutton)
         button.setOnClickListener {
-            val intent = Intent(this, AddNoteActivity::class.java)
+            val intent = Intent(this, MainActivity ::class.java)
             startActivity(intent)
         }
     }
